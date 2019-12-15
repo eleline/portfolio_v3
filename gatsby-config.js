@@ -3,8 +3,16 @@ require(`dotenv`).config({
 })
 
 module.exports = {
+  lang: "ja",
   siteMetadata: {
+    siteTitle: `ELELINE`,
     siteTitleAlt: `ELELINE Portfolio`,
+    siteHeadline: `ELELINE Portfolio`,
+    siteUrl: `https://eleline.me`,
+    siteDescription: `フロントエンドエンジニア見習い ELELINE のポートフォリオサイト`,
+    siteLanguage: `ja`,
+    siteImage: `/og.png`,
+    author: `@eleline5`,
   },
   plugins: [
     {
