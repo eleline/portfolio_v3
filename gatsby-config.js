@@ -3,7 +3,6 @@ require(`dotenv`).config({
 })
 
 module.exports = {
-  lang: "ja",
   siteMetadata: {
     siteTitle: `ELELINE`,
     siteTitleAlt: `ELELINE Portfolio`,
